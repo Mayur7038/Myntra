@@ -1,0 +1,36 @@
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FBFBFD;
+}
+#download{
+    display: flex;
+}
+#download > img{
+    height: 50px;
+    margin: 5px;
+}
+
+li{
+    text-align: left;
+    font-size: 15px;
+    color : grey;
+}
+#last{
+    padding: 30px;
+    text-align: left;
+}
+
+#last>div{
+    display: flex;
+}
+
+.garen{
+    margin-top: 5px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+#experinece{
+    text-align: left;
+}

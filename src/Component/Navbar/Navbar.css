@@ -1,0 +1,315 @@
+#navbar {
+  display: grid;
+  grid-template-columns: 50% 30% 20%;
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+#left {
+  display: grid;
+  /* border : 1px solid red; */
+  grid-template-columns: repeat(7, 1fr);
+}
+
+#right {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#navbarSearch {
+
+  width: 350px;
+  border: 1px solid rgb(227, 227, 228);
+  margin-top: 13px;
+  height: 37px;
+  border-radius: 5px;
+  padding-left: 40px;
+  background-color: #F5F4F7;
+}
+
+
+.mens {
+  display: none;
+  height: 440px;
+  position: fixed;
+  text-align: left;
+  padding-left: 0px;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  
+}
+
+.studioes{
+  display: none;
+  height: 500px;
+  position: fixed;
+  text-align: left;
+  padding-left: 0px;
+  top: 80px;
+  left: 25%;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  background-color: white;
+
+}
+
+#studio{
+  text-align: center;
+}
+
+#studioimg{
+  height: 320px;
+}
+#firstone{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.womens{
+  display: none;
+  height: 440px;
+  position: fixed;
+  text-align: left;
+  padding-left: 0px;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  
+
+}
+.homes{
+
+  display: none;
+  height: 440px;
+  position: fixed;
+  text-align: left;
+  padding-left: 0px;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  
+
+}
+
+.womens > div{
+
+  /* border : 1px solid blue; */
+  display: flex !important;
+  flex-direction: column ;
+  background-color: white;
+
+}
+.beauties > div{
+
+  /* border : 1px solid blue; */
+  display: flex !important;
+  flex-direction: column ;
+  background-color: white;
+
+}
+
+.kids{
+  display: none;
+  height: 440px;
+  position: fixed;
+  text-align: left;
+  padding-left: 0px;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+.beauties{
+  display: none;
+  height: 440px;
+  position: fixed;
+  text-align: left;
+  padding-left: 0px;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+
+}
+
+#head1,#head2{
+  font-weight:400;
+}
+
+
+.kids > div{
+  /* border : 1px solid blue; */
+  display: flex !important;
+  flex-direction: column ;
+  background-color: white;
+}
+
+.mens > div{
+  /* border : 1px solid blue; */
+  display: flex !important;
+  flex-direction: column ;
+  background-color: white;
+}
+.homes > div{
+  /* border : 1px solid blue; */
+  display: flex !important;
+  flex-direction: column ;
+  background-color: white;
+}
+
+.mens > div:nth-child(even){
+  background-color: rgb(240, 240, 240);
+
+}
+.kids > div:nth-child(even){
+  background-color: rgb(240, 240, 240);
+
+}
+.womens > div:nth-child(even){
+  background-color: rgb(240, 240, 240);
+
+}
+.homes > div:nth-child(even){
+  background-color: rgb(240, 240, 240);
+
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+hr{
+  width: 70%;
+}
+
+
+
+#men:hover {
+  border-bottom: 5px solid #f35510;
+}
+
+#kids:hover {
+  border-bottom: 5px solid #f35510;
+}
+#studio:hover {
+  border-bottom: 5px solid #ff4f76;
+}
+
+
+#men:hover div {
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+#kids:hover div {
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+#womens:hover div {
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+#homes:hover div {
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+#beauty:hover div{
+
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+
+}
+
+#studio:hover div{
+  display: block;
+}
+
+li{
+  font-size: 13px;
+  line-height: 20px;
+}
+li:hover{
+  font-weight: bolder;
+}
+
+#head1 {
+  color: #f35510;
+  margin: 0px;
+  font-weight: 500;
+
+}
+#head2 {
+  margin: 0px;
+  color: #f41cb2;
+  font-weight: 500;
+
+}
+#head3{
+  margin: 0px;
+  color :  #f3e410;
+  font-weight: 500;
+
+}
+#head4{
+  margin: 0px;
+  color :  rgb(0, 185, 185);
+  font-weight: 500;
+}
+
+#men:hover {
+  border-bottom: 5px solid #f35510;
+}
+#homes:hover {
+  border-bottom: 5px solid #f3e410;
+}
+#beauty:hover{
+  border-bottom: 5px solid rgb(0, 185, 185);
+
+}
+
+.womens {
+  display: none;
+  position: fixed;
+  text-align: left;
+  padding-left: 0px;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+}
+#womens:hover {
+  border-bottom: 5px solid #f41cb2;
+}
+
+
+
+#logo{
+  margin-top: 13px;
+  height: 45px;
+}
+
+
+.suggest{
+  margin-top: 0px;
+  font-size: 12px;
+  font-weight: bolder;
+}
