@@ -1,7 +1,8 @@
 import './App.css'
 import { Navbar } from './Component/Navbar/Navbar'
 import {Footer} from "./Component/Footer/Footer"
-import { Landing } from './Component/Landing/Landing'
+import {Router} from "./Component/Router"
+
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
 
       <Navbar/>
-      <Landing/>
+      <Router/>
       <Footer/>
      
     </div>

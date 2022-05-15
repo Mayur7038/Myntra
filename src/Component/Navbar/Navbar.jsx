@@ -3,6 +3,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import logo from "../../image/logo.png";
 import "./Navbar.css";
+import {Link} from "react-router-dom"
 
 export const Navbar = () => {
   const changeBck = () => {
@@ -15,7 +16,8 @@ export const Navbar = () => {
       <div id="navbar">
         <div id="left">
           <div>
-            <img id="logo" src={logo}></img>
+            <Link to="/" >  <img id="logo" src={logo}></img>    </Link>
+            
           </div>
           <div id="men">
             <h5> MEN </h5>

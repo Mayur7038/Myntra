@@ -8,7 +8,7 @@ import trackpants from "../../Assets/trackpants.webp"
 import home from "../../Assets/home-decor.webp"
 import dresses from "../../Assets/dresses.webp"
 import active from "../../Assets/activewear.jpg"
-
+import banner from "../../image/baner.jpeg"
 
 
 
@@ -18,7 +18,7 @@ import "./Landing.css"
 export const Landing =()=>{
     return <div id="landing">
         <div>
-            <img id="banner" alt="banner" src="https://images.pexels.com/photos/7148397/pexels-photo-7148397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
+            <img id="banner" alt="banner" src={banner}></img>
         </div>
         <div id="minibanner">
             <h1 id="league"> Fashion League </h1>
