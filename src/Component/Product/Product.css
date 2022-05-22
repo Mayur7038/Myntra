@@ -2,12 +2,19 @@
     margin-top: 80px;
     display: grid;
     grid-template-columns: 20% 80%;
-    
+    max-height: 800px;
+    overflow: auto;
 }
 #colors > div{
     display: block;
     text-align: left;
     padding-left: 25px;
+    max-height: 500px;
+}
+#colorTitle{
+    margin-left: 0px;
+    text-align: left;
+    padding-left: 40px;
 }
 #container > div{
     border : 1px solid rgb(190, 189, 189);
@@ -16,7 +23,9 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 30px;
+    
 }
+
 
 .images{
     height: 300px;

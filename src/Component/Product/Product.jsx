@@ -1,6 +1,6 @@
 import "./Product.css";
 import { women } from "../../Assets/Women/women.js";
-import { pink } from "@mui/material/colors";
+import { pink , blue } from "@mui/material/colors";
 import Checkbox from "@mui/material/Checkbox";
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
@@ -8,14 +8,25 @@ export const Product = () => {
   return (
     <div id="container">
       <div id="filters">
+
+        <div id="price">
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+
         <div id="colors">
+            <h3 id="colorTitle"> Color </h3>
           <div>
             <Checkbox
               {...label}
               sx={{
-                color: pink[800],
+                
                 "&.Mui-checked": {
-                  color: pink[600],
+                  color: pink,
                 },
               }}
             />
@@ -25,7 +36,6 @@ export const Product = () => {
             <Checkbox
               {...label}
               sx={{
-                color: pink[800],
                 "&.Mui-checked": {
                   color: pink[600],
                 },
@@ -36,7 +46,6 @@ export const Product = () => {
             <Checkbox
               {...label}
               sx={{
-                color: pink[800],
                 "&.Mui-checked": {
                   color: pink[600],
                 },
@@ -48,7 +57,6 @@ export const Product = () => {
             <Checkbox
               {...label}
               sx={{
-                color: pink[800],
                 "&.Mui-checked": {
                   color: pink[600],
                 },
@@ -60,7 +68,6 @@ export const Product = () => {
             <Checkbox
               {...label}
               sx={{
-                color: pink[800],
                 "&.Mui-checked": {
                   color: pink[600],
                 },
