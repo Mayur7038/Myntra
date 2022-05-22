@@ -2,6 +2,7 @@ import './App.css'
 import { Navbar } from './Component/Navbar/Navbar'
 import {Footer} from "./Component/Footer/Footer"
 import {Router} from "./Component/Router"
+import {Product} from "./Component/Product/Product"
 
 
 function App() {
@@ -9,9 +10,11 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar/>
-      <Router/>
-      <Footer/>
+
+    <Product/>
+     
+
+    
      
     </div>
   )

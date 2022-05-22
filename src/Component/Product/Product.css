@@ -1,3 +1,30 @@
 #container{
     margin-top: 80px;
+    display: flex;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.images{
+    height: 350px;
+}
+
+.gridDiv{
+    text-align: left;
+    
+}
+
+.price{
+    margin-left: 8px;
+}
+.title{
+    margin-left: 8px;
+}
+
+.filters{
+    border : 1px solid black;
+
 }
